@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: auto;
+    transition: background 0.3s ease-in-out;
+}
+
+.dark-mode .container {
+    background: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+.hidden {
+    display: none;
+}
+
+.progress-bar {
+    background: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+#progress {
+    height: 100%;
+    width: 0%;
+    background: green;
+    border-radius: 5px;
+}
+
+.underweight { color: blue; }
+.normal { color: green; }
+.overweight { color: orange; }
+.obese { color: red; }
+
+.dark-mode .progress-bar {
+    background: #555;
+}
